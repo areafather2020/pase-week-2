@@ -1,0 +1,10 @@
+body{
+    padding:10px;
+    margin:10px;
+}
+.form-box{
+    padding:5px;
+    margin:5px;
+    justify-content: space-evenly;
+    
+}

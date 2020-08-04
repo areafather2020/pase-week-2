@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+    <title>FORMS</title>
+</head>
+<body>
+    <h1>This is a form you must fill </h1>
+<form name="myForm" action="main_page.php" onsubmit="return validateForm()" method="post">
+    <div class="form-box error" data-errormsg="">
+     <label for="input-first" name="fname">First</label>
+     <input type="text" id="input-first" 
+     required placeholder="First Name"/>
+    
+    </div>
+
+    <div class="form-box" >
+        <label for="input-password">Password</label>
+        <input name="pass" type="password" id="input-password" 
+        required placeholder="Password" />
+       
+       </div>
+
+       <div class="form-box">
+        <label for="input-age">Email</label>
+        <input type="email" id="input-age" 
+        required placeholder="Email Address"/>
+       
+       </div>
+
+    <input type="submit" id=btn-submit value="submit">
+</form>
+    <script src="sign.js">
+    </script>
+</body>
+</html>
